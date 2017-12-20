@@ -4,6 +4,25 @@ header, nav {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    font-size: 22px;
+    line-height: 34px
+}
+
+header{
+    padding: 100px 0 50px;
+    line-height: 60px;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.landing-section-whoami{
+    padding-top: 50px; 
+}
+
 /* заголовки h1 и h2 должны быть с шрифтами без засечек (например, Arial или Helvetica), */
 h1, h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +30,3 @@ h1, h2 {
 
 /* размер основного шрифта должен стать в 22 пикселя с высотой строки в 34. */
 
-body{
-    font-size: 22px;
-    line-height: 34px
-}

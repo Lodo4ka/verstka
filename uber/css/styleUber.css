@@ -1,0 +1,32 @@
+header {
+    height: 72px;
+    width: 1124px;
+    background-color: #FFFFFF
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header_section_nav_left {
+    margin: 12px 0px 0px 20px;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.header_section_nav_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 50px;
+}
+
+.header_section_nav_right {
+    display: flex;
+    margin-top: 12px;
+    align-self: flex-end;
+    align-content: flex-end;
+    justify-content: center;
+}
