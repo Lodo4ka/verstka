@@ -1,6 +1,7 @@
 html {
     font-family: Roboto;
     font-style: normal;
+    position: relative;
 }
 
 header {
@@ -66,6 +67,8 @@ header {
 .container {
     max-width: 976px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -82,4 +85,56 @@ header {
     font-weight: normal;
     line-height: 21px;
     font-size: 13px;
+}
+
+footer {
+    justify-content: flex-start;
+    position: relative;
+    display: flex;
+    width: 1124px;
+    height: 552px;
+    background: #262626;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 0 16px;
+    min-height: 40px;
+    font-size: 16px;
+    background-color: transparent;
+    margin-right: auto;
+    outline: none;
+    position: absolute;
+}
+
+.searchIconWrapper {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+    width: 100%;
+    background-position: left center;
+    padding-left: 32px;
+    font-size: 16px;
+}
+
+.hr {
+    margin-bottom: 32px;
+    margin-top: 32px;
+    box-sizing: content-box;
+    height: 0;
+}
+
+.dropdown {
+    display: absolute;
+    display: none;
+    box-sizing: border-box;
+    z-index: 6;
+}
+
+.linkList__center {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
