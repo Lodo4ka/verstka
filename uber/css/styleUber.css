@@ -1,27 +1,51 @@
 html {
     font-family: Roboto;
     font-style: normal;
-    position: relative;
 }
 
 header {
     height: 72px;
     width: 1124px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
 }
 
-.header {
+.page-header {
     max-width: 976px;
     margin: auto;
     width: 100%;
-    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.search {
+    max-width: 976px;
+    display: block;
+    z-index: 10;
+}
+
+.searchIconWrapper {
+    padding: 0 16px;
+    min-height: 40px;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+    width: 100%;
+    background-position: left center;
+    padding-left: 33px;
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 100%;
+    justify-content: flex-start;
+    position: absolute;
+}
+
+.cards-item {
+    padding-top: 100px;
 }
 
 .logo {
@@ -29,7 +53,7 @@ header {
 }
 
 .btb_asap {
-    border: 1px solid #E0E0E0;
+    border: 1px solid #e0e0e0;
     width: 65px;
     height: 40px;
     font-family: Roboto;
@@ -68,7 +92,7 @@ header {
     max-width: 976px;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .card {
@@ -97,32 +121,13 @@ footer {
     box-sizing: border-box;
 }
 
-section {
-    padding: 0 16px;
-    min-height: 40px;
-    font-size: 16px;
-    background-color: transparent;
-    margin-right: auto;
-    outline: none;
-    position: absolute;
-}
-
-.searchIconWrapper {
-    display: flex;
-    align-items: center;
-    border: none;
-    border-bottom: 1px solid rgba(117, 117, 117, 0.3);
-    width: 100%;
-    background-position: left center;
-    padding-left: 32px;
-    font-size: 16px;
-}
-
 .hr {
     margin-bottom: 32px;
     margin-top: 32px;
     box-sizing: content-box;
     height: 0;
+    opacity: 0.3;
+    border-top: 1px solid #e0e0e0;
 }
 
 .dropdown {
@@ -137,4 +142,9 @@ section {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.layout__bottom {
+    display: flex;
+    justify-content: center;
 }
