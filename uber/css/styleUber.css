@@ -1,54 +1,80 @@
-html {
-    font-family: Roboto;
+body {
+    font-family: "Roboto", sans-serif;
     font-style: normal;
 }
 
 header {
-    height: 72px;
-    width: 1124px;
+    width: 1024px;
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
     box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
 }
 
 .page-header {
-    max-width: 976px;
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
     align-items: center;
 }
 
+.header-logo {
+    margin-right: 124px;
+}
+
+.btn_Asap {
+    margin-right: 9px;
+}
+
+.paragraph_to {
+    margin-right: 9px;
+}
+
+.schedule {
+    margin-right: 164px;
+}
+
+.sign_in {
+    margin-right: 16px;
+}
+
+.register {
+    margin-right: 27px;
+}
+
+.basket {
+    margin-right: 0px;
+}
+
 .search {
-    max-width: 976px;
-    display: block;
-    z-index: 10;
+    margin-top: 65px;
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #757575;
+    width: 100%;
 }
 
-.searchIconWrapper {
-    padding: 0 16px;
-    min-height: 40px;
-    display: inline-block;
-    border: none;
-    border-bottom: 1px solid rgba(117, 117, 117, 0.3);
-    width: 100%;
-    background-position: left center;
-    padding-left: 33px;
-    margin-top: 30px;
-    margin-left: 70px;
-    width: 100%;
+.page-header .search-section {
+    display: inline-flex;
     justify-content: flex-start;
-    position: absolute;
+    align-items: baseline;
+    border: none;
+    border-bottom: 2px solid rgba(117, 117, 117, 0.3);
+    width: 100%;
+    margin-top: 30px;
+    width: 100%;
 }
 
-.cards-item {
-    padding-top: 100px;
+.search-section .lupa {
+    text-decoration: none;
 }
 
-.logo {
+.input_search {
+    border: none;
+    opacity: 50%;
+    width: 223px;
+}
+
+.header-logo {
     display: inline-flex;
 }
 
@@ -74,6 +100,22 @@ header {
     color: #626262;
 }
 
+main {
+    width: 1024px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.cards-item {
+    max-width: 1024px;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -86,13 +128,6 @@ header {
     padding-left: 8px;
     padding-right: 8px;
     box-sizing: border-box;
-}
-
-.container {
-    max-width: 976px;
-    margin: auto;
-    display: flex;
-    justify-content: flex-start;
 }
 
 .card {
@@ -112,22 +147,15 @@ header {
 }
 
 footer {
-    justify-content: flex-start;
-    position: relative;
-    display: flex;
-    width: 1124px;
     height: 552px;
     background: #262626;
     box-sizing: border-box;
+    padding-left: 120px;
 }
 
-.hr {
-    margin-bottom: 32px;
-    margin-top: 32px;
-    box-sizing: content-box;
-    height: 0;
-    opacity: 0.3;
-    border-top: 1px solid #e0e0e0;
+.wrapper {
+    max-width: 1024px;
+    position: relative;
 }
 
 .dropdown {
@@ -135,6 +163,14 @@ footer {
     display: none;
     box-sizing: border-box;
     z-index: 6;
+}
+
+.layout__top {
+    display: inline-block;
+    width: 100%;
+    padding-top: 56px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .linkList__center {
