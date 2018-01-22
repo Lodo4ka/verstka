@@ -123,6 +123,20 @@ h2 {
     margin-right: -8px;
 }
 
+.col-1 {
+    flex-basis: 8.3333%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.col-3 {
+    flex-basis: 24.9999%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
 .col-4 {
     flex-basis: 33.33333%;
     padding-left: 8px;
@@ -131,38 +145,31 @@ h2 {
 }
 
 .card {
-    background: #757575;
     text-align: left;
     margin-bottom: 20px;
     margin-bottom: 20px;
     width: 300px;
     height: 256px;
-    padding-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-bottom: 150px;
     font-style: normal;
     font-weight: normal;
     line-height: 21px;
     font-size: 13px;
+    width: 100%;
 }
 
 footer {
     height: 552px;
     background: #262626;
-    box-sizing: border-box;
     padding-left: 120px;
 }
 
 .wrapper {
+    display: flex;
     max-width: 1024px;
-    position: relative;
-}
-
-.dropdown {
-    display: absolute;
-    display: none;
-    box-sizing: border-box;
-    z-index: 6;
+    height: 220px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 .layout__top {
@@ -175,12 +182,181 @@ footer {
 
 .linkList__center {
     list-style: none;
-    margin: 0;
-    padding: 0;
+}
+
+.linkList__right {
+    list-style: none;
+}
+
+.linkList__center li {
+    margin-bottom: 23px;
+}
+
+.linkList__center li:nth-child(1) {
+    margin-top: 39px;
+}
+
+.linkList__center a {
     box-sizing: border-box;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: left;
+    color: white;
+}
+
+.linkList__right li {
+    margin-bottom: 23px;
+}
+
+.linkList__right li:nth-child(1) {
+    margin-top: 80px;
+    display: inline-block;
+    width: 73px;
+}
+
+.linkList__right li .linkList__right a {
+    text-decoration: none;
+    display: inline;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: left;
+    color: white;
+}
+
+footer {
+    height: 552px;
+    background: #262626;
+    padding-left: 120px;
+}
+
+.wrapper {
+    display: flex;
+    height: 220px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.layout__top {
+    display: inline-block;
+    width: 100%;
+    padding-top: 56px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.layout__left {
+    margin-top: 32px;
+}
+
+.layout__left a {
+    text-decoration: none;
+}
+
+.linkList__center {
+    list-style: none;
+}
+
+.layout__center {
+    margin-right: 154px;
+}
+
+.linkList__right {
+    list-style: none;
+    display: inline-block;
+}
+
+.linkList__center a {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: left;
+    color: white;
+}
+
+.linkList__right a {
+    text-decoration: none;
+    display: inline;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: left;
+    color: white;
+}
+
+footer {
+    height: 700px;
+    background: #262626;
+    padding-left: 120px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    height: 220px;
+    margin-left: -8px;
+    margin-right: -8px;
+    border-bottom: 1px solid white;
+    padding-bottom: 48px;
+}
+
+.layout__top {
+    display: inline-block;
+    width: 100%;
+    padding-top: 56px;
+    padding-bottom: 40px;
+    max-width: 1024px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.linkList__center {
+    list-style: none;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 227px;
+    height: 40px;
+    margin-bottom: 33px;
+}
+
+.language .world {
+    margin-left: 24px;
+    margin-right: 17px;
+}
+
+.language .arrow {
+    margin-left: 85px;
+}
+
+.socialNetwork {
+    margin-top: 22px;
 }
 
 .layout__bottom {
+    width: 1024px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 120px;
+    border-bottom: 1px solid white;
+}
+
+.layout__bottom a:first-child {
+    margin-right: 41px;
+}
+
+.footer-copyright {
+    display: inline-flex;
+    color: white;
+    margin-top: 40px;
+    position: relative;
+}
+
+svg {
+    position: absolute;
+    top: -50px;
+    left: 1000px;
 }
