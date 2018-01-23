@@ -137,11 +137,32 @@ h2 {
     box-sizing: border-box;
 }
 
-.col-4 {
-    flex-basis: 33.33333%;
-    padding-left: 8px;
-    padding-right: 8px;
-    box-sizing: border-box;
+@media(min-width:576px) {
+    .col-sm-12 {
+        flex-basis: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing: border-box;
+    }
+}
+
+@media(min-width:768px) {
+    .col-md-6 {
+        flex-basis: 50%;
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing: border-box;
+        /* margin-bottom: 126px; */
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        flex-basis: 33.33333%;
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing: border-box;
+    }
 }
 
 .card {
@@ -352,11 +373,10 @@ footer {
     display: inline-flex;
     color: white;
     margin-top: 40px;
-    position: relative;
 }
 
-svg {
-    position: absolute;
-    top: -50px;
-    left: 1000px;
+svg {}
+
+.arrow {
+    background-position: 50% 50%;
 }
