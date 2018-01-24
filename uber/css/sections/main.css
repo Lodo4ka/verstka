@@ -1,0 +1,56 @@
+.main {
+    margin-bottom: 80px;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.row {
+    flex-flow: row wrap;
+    margin: 0 -8px;
+}
+
+.col-lg-3 {
+    padding: 0 8px;
+    flex-basis: 33.333%;
+    margin-bottom: 16px;
+}
+
+.main__title {
+    font-weight: normal;
+    line-height: 34px;
+    font-size: 22px;
+    color: #1d1d1d;
+    margin-bottom: 16px;
+}
+
+.main__photo {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.main__info {
+    padding-bottom: 20px;
+}
+
+.main__name {
+    line-height: 24px;
+    color: #1d1d1d;
+    margin-bottom: 4px;
+}
+
+.main__sale {
+    line-height: 21px;
+    font-size: 14px;
+    color: #626262;
+    margin-bottom: 4px;
+}
+
+.main__time {
+    line-height: 21px;
+    font-size: 13px;
+    color: #1d1d1d;
+}

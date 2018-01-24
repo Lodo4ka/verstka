@@ -5,230 +5,248 @@
     <title>Uber Eats</title>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type">
-    <link rel="stylesheet" href="../../firstProject/normalize.css">
+    <link rel="stylesheet" href="../css/include/normalize.css">
     <link rel="stylesheet" href="../css/styleUber.css">
 </head>
 
 <body>
-    <header>
+
+    <!-- header -->
+    <header class="header header_m">
         <div class="page-header">
             <div class="header-logo">
                 <img src="../img/logo.svg" alt="Uber offical">
             </div>
 
-            <div class="btn_Asap">
-                <button style="width: 65px" class="btb_asap">ASAP</button>
-            </div>
-            <p class="paragraph_to">to</p>
-            <div class="schedule">
-                <form action="">
-                    <label>
-                        <input type="text" name="adress" style="width:292px" value="ul.Bolshaya Dmitrovka,22">
-                    </label>
-                </form>
+            <div class="asap">
+                <button class="asap__button">ASAP</button>
+                <div class="asap__to">to</div>
+                <div class="asap__location">
+                    <input type="search" class="asap__search" value="ul.Bolshaya Dmitrovka,22">
+                    <!--  -->
+                </div>
             </div>
 
-
-            <div class="sign_in">
-                <button>Sign in</button>
-            </div>
-
-            <div class="register">
-                <button style="background-color: black; color: white;">Register</button>
-            </div>
-            <div class="basket">
+            <!-- buttons -->
+            <div class="buttons">
+                <button class="buttons__sign-in">Sign in</button>
+                <button class="buttons__register">Register</button>
                 <a href="" class="lupa">
-                    <img src="../img/basket.svg" alt="basket">
+                    <img src="../img/basket.svg" alt="buttons__basket">
                 </a>
             </div>
-        </div>
-
-
-
-        <section class="search">
-            <div class="img_lupa">
-                <a href="#" class="lupa">
-                    <img src="../img/lupa.png" alt="lupa" class="lupa_img">
-                </a>
-            </div>
-            <div class="search-section">
-                <form action="">
-                    <input class="input_search" placeholder="Search for restaurant or cuisine">
-                </form>
-            </div>
-        </section>
 
     </header>
+    <!-- header -->
 
-
-    <main>
-
-        <div class="main-title">
-            <h2>Moscow Restaurants</h2>
+    <div class="section__search">
+        <div class="search-section">
+            <form action="">
+                <input class="search__input" placeholder="Search for restaurant or cuisine">
+            </form>
         </div>
+    </div>
 
-        <section class="cards-item">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img style="width:100%" src="../img/1.png" alt="macdonalds">
-                        <p>Макдоналдс — Газетный</p>
-                        <p>PP • Бургеры</p>
-                        <p>25-35 Min</p>
+    <!-- main -->
+    <main class="main">
+
+        <div class="main__wrapper">
+
+            <div class="container">
+                <h1 class="main__title">Moscow Restaurants</h1>
+
+                <div class="main__list row">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="main__card">
+                            <img src="../img/1.png" alt="macdonalds" class="main__photo">
+                            <div class="main__info">
+                                <div class="main__name">Макдоналдс — Газетный</div>
+                                <div class="main__sale">PP • Бургеры</div>
+                                <div class="main__time">25-35 Min</div>
+                            </div>
+
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img style="width:100%" src="../img/2.png" alt="dimsum">
-                        <p>DimSum & Co - ЦДМ</p>
-                        <p>P • Японская • Китайская • Азиатская</p>
-                        <p>40-50 Min</p>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="main__card">
+                            <img src="../img/2.png" alt="dimsum" class="main__photo">
+                            <div class="main__info">
+                                <div class="main__name">DimSum & Co - ЦДМ</div>
+                                <div class="main__sale">P • Японская • Китайская • Азиатская</div>
+                                <div class="main__time">40-50 Min</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img style="width:100%" src="../img/3.png" alt="dimsum">
-                        <p>ДвижОК - Манежная</p>
-                        <p>P • Американская • Европейская</p>
-                        <p>35-45 Min</p>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="main__card">
+                            <img src="../img/3.png" alt="dimsum" class="main__photo">
+                            <div class="main__info">
+                                <div class="main__name">ДвижОК - Манежная</div>
+                                <div class="main__sale">P • Американская • Европейская</div>
+                                <div class="main__time">35-45 Min</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img style="width:100%" src="../img/4.png" alt="nya-nha">
-                        <p>НЯ - NHA</p>
-                        <p>PP • Вьетнемская</p>
-                        <p>30-40 Min</p>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="main__card">
+                            <img src="../img/4.png" alt="nya-nha" class="main__photo">
+                            <div class="main__info">
+                                <div class="main__name">НЯ - NHA</div>
+                                <div class="main__sale">PP • Вьетнемская</div>
+                                <div class="main__time">30-40 Min</div>
+                            </div>
+
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img style="width:100%" src="../img/5.png" alt="dzi">
-                        <p>Точка Дзы - Цветной</p>
-                        <p>PP • Вьетнемская</p>
-                        <p>40-50 Min</p>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="main__card">
+                            <img src="../img/5.png" alt="dzi" class="main__photo">
+                            <div class="main__info">
+                                <div class="main__name">Точка Дзы - Цветной</div>
+                                <div class="main__sale">PP • Вьетнемская</div>
+                                <div class="main__time">40-50 Min</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img style="width:100%" src="../img/6.png" alt="cinnabon">
-                        <p>Cinnabon</p>
-                        <p>P • Выпечка • Десерты • Капкейки</p>
-                        <p>25-35 Min</p>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="main__card">
+                            <img src="../img/6.png" alt="cinnabon" class="main__photo">
+                            <div class="main__info">
+                                <div class="main__name">Cinnabon</div>
+                                <div class="main__sale">P • Выпечка • Десерты • Капкейки</div>
+                                <div class="main__time">25-35 Min</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img style="width:100%" src="../img/7.png" alt="pizzelove">
-                        <p>PIZZELOVE</p>
-                        <p>PP • Пицца</p>
-                        <p>15-25 Min</p>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="main__card">
+                            <img src="../img/7.png" alt="pizzelove" class="main__photo">
+                            <div class="main__info">
+                                <div class="main__name">PIZZELOVE</div>
+                                <div class="main__sale">PP • Пицца</div>
+                                <div class="main__time">15-25 Min</div>
+                            </div>
+
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img style="width:100%" src="../img/8png.png" alt="zucafe">
-                        <p>Zю кафе - Тверская</p>
-                        <p>PP • Японская</p>
-                        <p>25-35 Min</p>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="main__card">
+                            <img src="../img/8png.png" alt="zucafe" class="main__photo">
+                            <div class="main__info">
+                                <div class="main__name">Zю кафе - Тверская</div>
+                                <div class="main__sale">PP • Японская</div>
+                                <div class="main__time">25-35 Min</div>
+                            </div>
+
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="card">
-                        <img style="width:100%" src="../img/9.png" alt="barbq">
-                        <p>Bar BQ Cafe - Манежная</p>
-                        <p>PP • Европейская</p>
-                        <p>30-40 Min</p>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="main__card">
+                            <img src="../img/9.png" alt="barbq" class="main__photo">
+                            <div class="main__info">
+                                <div class="main__name">Bar BQ Cafe - Манежная</div>
+                                <div class="main__sale">PP • Европейская</div>
+                                <div class="main__time">30-40 Min</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+
+        </div>
+
+
     </main>
 
-    <footer>
+    <!-- main -->
 
-        <div class="layout__top">
-            <div class="footer_logo">
-                <img src="../img/footer/white-logo.svg" alt="footer_logo">
+    <footer class="footer">
+        <div class="container">
+
+            <div class="layout__top">
+                <div class="footer_logo">
+                    <img src="../img/footer/white-logo.svg" alt="footer_logo">
+                </div>
             </div>
-        </div>
 
-        <div class="wrapper">
-            <div class="layout__left col-4">
-                <div class="language" style="background: #3B3B3B">
-                    <a href="#" style="color:white ">
-                        <img src="../img/footer/world.svg" alt="world" class="world">ENGLISH
-                        <img src="../img/footer/if_icon-ios7-arrow-back_211686.svg" class="arrow">
-                    </a>
+            <div class="wrapper">
+                <div class="layout__left col-4">
+                    <div class="language" style="background: #3B3B3B">
+                        <a href="#" style="color:white ">
+                            <img src="../img/footer/world.svg" alt="world" class="world">ENGLISH
+                            <img src="../img/footer/if_icon-ios7-arrow-back_211686.svg" class="arrow">
+                        </a>
+                    </div>
+
+                    <p style="color:white">
+                        <span style="color: green">#</span>UberEats</p>
+
+                    <div class="socialNetwork">
+                        <a href="">
+                            <img src="../img/footer/facebook.svg">
+                        </a>
+                        <a href="">
+                            <img src="../img/footer/twitter.svg">
+                        </a>
+                        <a href="">
+                            <img src="../img/footer/instagram.svg">
+                        </a>
+                    </div>
+
+
                 </div>
 
-                <p style="color:white">
-                    <span style="color: green">#</span>UberEats</p>
 
-                <div class="socialNetwork">
-                    <a href="">
-                        <img src="../img/footer/facebook.svg">
-                    </a>
-                    <a href="">
-                        <img src="../img/footer/twitter.svg">
-                    </a>
-                    <a href="">
-                        <img src="../img/footer/instagram.svg">
-                    </a>
+                <div class="layout__center col-3">
+                    <ul class="linkList__center">
+                        <li>
+                            <a href="" class="primaryTextLink">About UberEats</a>
+                        </li>
+                        <li>
+                            <a href="" class="primaryTextLink">Become a Delivery Partner</a>
+                        </li>
+                        <li>
+                            <a href="" class="primaryTextLink">Become a Restaurant Partner</a>
+                        </li>
+                    </ul>
                 </div>
-
-
+                <div class="layout__right col-1">
+                    <ul class="linkList__right">
+                        <li>
+                            <a href="" class="primaryTextLink1">See all cities</a>
+                        </li>
+                        <li>
+                            <a href="" class="primaryTextLink">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="" class="primaryTextLink">Help</a>
+                        </li>
+                        <li>
+                            <a href="" class="primaryTextLink">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="layout__bottom">
+                <a href="">
+                    <img src="../img/footer/Download_on_the_App_Store_Badge_US-UK_135x40-d0558d9106.png" alt="appstore">
+                </a>
+                <a href="">
+                    <img src="../img/footer/en_badge_web_generic-cf6dad406f.png" alt="googleplay">
+                </a>
             </div>
 
-
-            <div class="layout__center col-3">
-                <ul class="linkList__center">
-                    <li>
-                        <a href="" class="primaryTextLink">About UberEats</a>
-                    </li>
-                    <li>
-                        <a href="" class="primaryTextLink">Become a Delivery Partner</a>
-                    </li>
-                    <li>
-                        <a href="" class="primaryTextLink">Become a Restaurant Partner</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="layout__right col-1">
-                <ul class="linkList__right">
-                    <li>
-                        <a href="" class="primaryTextLink1">See all cities</a>
-                    </li>
-                    <li>
-                        <a href="" class="primaryTextLink">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="" class="primaryTextLink">Help</a>
-                    </li>
-                    <li>
-                        <a href="" class="primaryTextLink">FAQs</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="layout__bottom">
-            <a href="">
-                <img src="../img/footer/Download_on_the_App_Store_Badge_US-UK_135x40-d0558d9106.png" alt="appstore">
-            </a>
-            <a href="">
-                <img src="../img/footer/en_badge_web_generic-cf6dad406f.png" alt="googleplay">
-            </a>
-        </div>
-
-        <div class="footer-copyright">
-            <span style="margin-right: 174px">© 2017 Uber Technologies Inc.</span>
-            <span style="margin-right: 288px">Privacy </span>
-            <span style="margin-right: 268px">Terms</span>
-            <svg>
+            <div class="footer-copyright">
+                <span style="margin-right: 174px">© 2017 Uber Technologies Inc.</span>
+                <span style="margin-right: 288px">Privacy </span>
+                <span style="margin-right: 268px">Terms</span>
+                <svg>
                 <rect width="80px" height="80px" fill="#59BD5A">
-                    <img src="../img/footer/if_icon-ios7-arrow-back_211686.svg" alt="arrow" class="arrow">
+                    <image data-ng-src="../img/footer/if_icon-ios7-arrow-back_211686.svg" />
                 </rect>
             </svg>
+            </div>
+
         </div>
 
 
