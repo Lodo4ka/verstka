@@ -1,0 +1,114 @@
+.footer {
+    padding: 10px 0 0;
+    background-color: #262626;
+    position: relative;
+}
+
+.footer__container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.footer__layout--top {
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 13px;
+    width: 70%;
+    padding: 32px 0 48px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    width: 227px;
+    height: 40px;
+    margin-bottom: 33px;
+    font-size: 13px;
+    border-radius: 2px;
+    border: none;
+}
+
+.language .world {
+    margin-left: 24px;
+    margin-right: 17px;
+}
+
+.language .arrow {
+    margin-left: 85px;
+}
+
+.socialNetwork {
+    display: flex;
+}
+
+.socialNetwork-item {
+    margin-right: 10px;
+}
+
+.socialNetwork-item:nth-child(1) {
+    margin-right: 12px;
+}
+
+.socialNetwork-item:nth-child(2) {
+    margin-right: 8px;
+}
+
+.footer__uberEats-p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 17px;
+}
+
+.primaryTextLink {
+    color: white;
+    font-size: 13px;
+}
+
+.linkList-item {
+    margin-bottom: 23px;
+}
+
+.linkList-item:last-child {
+    margin-bottom: 0px;
+}
+
+.footer__width-full {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer__layout-bottom {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 11px;
+    width: 70%;
+}
+
+.square {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background: #59bd5a;
+    position: absolute;
+    top: 95%;
+    right: 5%;
+}

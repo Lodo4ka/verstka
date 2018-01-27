@@ -1,0 +1,31 @@
+/* Header */
+
+@media screen and (max-width: 825px) {
+    .header {
+        padding: 16px 0;
+    }
+    .header-logo {
+        width: 107px;
+    }
+}
+
+
+/* Main */
+
+@media screen and (max-width: 800px) {
+    .main_mobile {
+        margin-bottom: 48px;
+    }
+    .col-md-6 {
+        flex-basis: 49.9998%;
+    }
+}
+
+
+/* Footer */
+
+@media screen and (max-width: 820px) {
+    .footer__width-full {
+        width: 90%;
+    }
+}

@@ -2,21 +2,28 @@
     margin-bottom: 80px;
 }
 
-.container {
+.main__container {
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 8px;
 }
 
 .row {
+    display: flex;
     flex-flow: row wrap;
     margin: 0 -8px;
 }
 
-.col-lg-3 {
+.col-lg-4 {
     padding: 0 8px;
     flex-basis: 33.333%;
     margin-bottom: 16px;
+}
+
+.col-lg-6 {
+    padding: 0 8px;
+    flex-basis: 49.999%;
+    margin-bottom: 49px;
 }
 
 .main__title {
