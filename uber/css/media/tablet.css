@@ -10,6 +10,15 @@
 }
 
 
+/* Restaurant */
+
+@media screen and (max-width: 768px) {
+    .restaurant__card {
+        padding: 38px 48px;
+    }
+}
+
+
 /* Main */
 
 @media screen and (max-width: 800px) {
@@ -18,6 +27,13 @@
     }
     .col-md-6 {
         flex-basis: 49.9998%;
+    }
+}
+
+@media screen and (max-width: 917px) {
+    .col-md-12 {
+        flex-basis: 99.999%;
+        margin-bottom: 32px;
     }
 }
 

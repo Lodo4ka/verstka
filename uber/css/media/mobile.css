@@ -22,6 +22,51 @@
 }
 
 
+/* Restaurant */
+
+@media screen and (max-width: 500px) {
+    .restaurant_mobile {
+        margin-bottom: 100px;
+        background: url("../../img/assortment/photo full.svg") no-repeat 50% 0;
+        background-size: cover;
+        height: 256px;
+    }
+    .restaurant__container {
+        padding-top: 100px;
+    }
+    .restaurant__card {
+        width: 100%;
+        margin-top: 200px;
+        margin: 0 8px;
+    }
+    .restaurant__name {
+        font-size: 33px;
+        display: inline;
+        margin-left: 50px;
+    }
+    .restaurant__info {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .restaurant__sale {
+        margin-bottom: 16px;
+        font-size: 20px;
+    }
+    .restaurant__time {
+        font-size: 20px;
+    }
+}
+
+
+/* Categories */
+
+@media screen and (max-width: 683px) {
+    .categories {
+        display: none;
+    }
+}
+
+
 /* Main */
 
 @media screen and (max-width: 520px) {
@@ -34,8 +79,40 @@
 }
 
 @media screen and (max-width: 471px) {
+    .main__snacks_title {
+        justify-content: center;
+        margin-bottom: 56px;
+    }
+    .main__snack-text::after {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 1px;
+        width: 50px;
+        background: #757575;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -12px;
+    }
     .col-sm-12 {
         margin-bottom: 16px;
+    }
+    /* SNACK */
+    .snack__card {
+        border: none;
+        border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+    }
+    .snack__info {
+        padding: 0;
+        padding-bottom: 15px;
+        padding-right: 10px;
+    }
+    .snack__name {
+        font-size: 14px;
+    }
+    .snack__image {
+        width: 102px;
+        height: 102px;
     }
 }
 
@@ -59,7 +136,7 @@
     .footer-copyright__item {
         margin-bottom: 24px;
     }
-    .footer-c.footer-copyrightpyright__item:last-of-type {
+    .footer-copyright__item:last-of-type {
         margin-bottom: 0;
     }
     .footer-copyright {
