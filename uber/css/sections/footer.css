@@ -2,6 +2,7 @@
     padding: 10px 0 0;
     background-color: #262626;
     position: relative;
+    padding-bottom: 60px;
 }
 
 .footer__container {
@@ -93,6 +94,7 @@
 }
 
 .footer-copyright {
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -109,6 +111,6 @@
     height: 80px;
     background: #59bd5a;
     position: absolute;
-    top: 95%;
-    right: 5%;
+    top: 78%;
+    right: 0%;
 }
