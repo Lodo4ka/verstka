@@ -11,6 +11,14 @@
     padding: 0 8px;
 }
 
+.select_country {
+    position: relative;
+    width: 225px;
+    z-index: 10;
+    height: 40px;
+    opacity: 0;
+}
+
 .footer__layout--top {
     padding: 40px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
@@ -35,6 +43,12 @@
     font-size: 13px;
     border-radius: 2px;
     border: none;
+    position: relative;
+    top: -20%;
+}
+
+.store_picture {
+    margin-right: 42px;
 }
 
 .language .world {
