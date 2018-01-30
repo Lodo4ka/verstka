@@ -1,6 +1,6 @@
 /* Header */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 500px) {
 
     .header-logo {
       transform: scale(1.6);
@@ -89,7 +89,7 @@
     .main__snacks_title {
         margin-left: 180px;
         font-size: 28px;
-        margin-bottom: 56px;
+        margin-bottom: 12px;
     }
     .main__snack-text {
         margin-top: 88px;
@@ -97,20 +97,26 @@
     .col-sm-12 {
         flex-basis: 100%;
     }
+
 }
 
-@media screen and (max-width: 471px) {
+@media screen and (max-width: 500px) {
     .main__snack-text::after {
         content: "";
         position: absolute;
         display: block;
         height: 1px;
-        width: 50px;
+        width: 80px;
         background: #757575;
         left: 50%;
         transform: translateX(-50%);
         bottom: -12px;
     }
+
+    .main__list {
+      margin-top: 43px;
+    }
+
     .col-sm-12 {
         margin-bottom: 16px;
     }
@@ -124,15 +130,20 @@
         padding-bottom: 15px;
         padding-right: 10px;
     }
+
+    .snack__sale {
+      font-size: 19px;
+    }
+
     .snack__name {
-        font-size: 14px;
+        font-size: 18px;
+        display: inline;
     }
     .snack__recipe {
-        font-size: 13px;
+        font-size: 17px;
     }
     .snack__image {
-        width: 102px;
-        height: 102px;
+
     }
 }
 
@@ -179,7 +190,7 @@
         margin-bottom: 40px;
     }
     .footer_logo_img {
-        width: 300px;
+        width: 250px;
     }
     .footer__wrapper {
         flex-flow: column;
@@ -207,6 +218,9 @@
     .footer-copyright {
         flex-flow: column;
     }
+
+
+
     .square {
         top: 90%;
         right: 0%;

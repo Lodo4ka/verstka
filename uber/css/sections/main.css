@@ -8,6 +8,10 @@
     padding: 0 8px;
 }
 
+.snach_hr {
+  display: none;
+}
+
 .row {
     display: flex;
     flex-flow: row wrap;
