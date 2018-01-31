@@ -25,16 +25,16 @@
     .search_asap {
         display: flex;
     }
-    .search_asap--location {
+    .section__search .asap__location {
         flex-grow: 1;
     }
-    .search_asap--search {
+    .section__search .asap__search {
         width: 100%;
     }
     .search_desc {
         display: block;
     }
-    .search_asap_button {
+    .section__search .asap__button {
         margin-right: 16px;
     }
 }
