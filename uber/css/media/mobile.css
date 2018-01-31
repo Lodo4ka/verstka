@@ -1,27 +1,14 @@
 /* Header */
 
-@media screen and (max-width: 500px) {
-
-    .header-logo {
-      transform: scale(1.6);
-      margin-left: 30px;
-    }
-
-    .header .asap {
+@media screen and (max-width: 767px) {
+    .asap {
         display: none;
     }
-
     .buttons__sign-in {
-      transform: scale(1.4);
-      margin-right: 25px;
-      font-size: 11px;
+        width: 80px;
     }
-
     .buttons__register {
-      margin: 20px;
         margin-right: 0;
-        transform: scale(1.4);
-        font-size: 11px;
     }
     .basket {
         display: none;
@@ -35,38 +22,48 @@
     .search__input {
         margin-bottom: 24px;
     }
+    .search_asap {
+        display: flex;
+    }
+    .search_asap--location {
+        flex-grow: 1;
+    }
+    .search_asap--search {
+        width: 100%;
+    }
+    .search_desc {
+        display: block;
+    }
+    .search_asap_button {
+        margin-right: 16px;
+    }
 }
 
 
 /* Restaurant */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 471px) {
     .restaurant_mobile {
-        margin-bottom: 100px;
         background: url("../../img/assortment/photo full.svg") no-repeat 50% 0;
         background-size: cover;
-        height: 256px;
-    }
-    .restaurant__container {
-        padding-top: 100px;
+        vertical-align: bottom;
+        margin-bottom: 56px;
+        padding-bottom: 0px;
     }
     .restaurant__card {
-        width: 100%;
-        margin-top: 200px;
+        padding: 24px 49px;
         margin: 0 8px;
+        width: 100%;
     }
     .restaurant__name {
-        font-size: 33px;
-        display: inline;
-        margin-left: 50px;
+        font-size: 24px;
+        text-align: center;
     }
     .restaurant__info {
-        margin-top: 40px;
         flex-direction: column;
     }
     .restaurant__sale {
-        margin-bottom: 16px;
-        font-size: 20px;
+        margin-bottom: 14px;
     }
     .restaurant__time {
         font-size: 20px;
@@ -86,21 +83,19 @@
 /* Main */
 
 @media screen and (max-width: 520px) {
-    .main__snacks_title {
-        margin-left: 180px;
-        font-size: 28px;
-        margin-bottom: 12px;
-    }
-    .main__snack-text {
-        margin-top: 88px;
+    .main_mobile {
+        margin-bottom: 40px;
     }
     .col-sm-12 {
         flex-basis: 100%;
     }
-
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 471px) {
+    .main__snacks_title {
+        justify-content: center;
+        margin-bottom: 56px;
+    }
     .main__snack-text::after {
         content: "";
         position: absolute;
@@ -112,11 +107,9 @@
         transform: translateX(-50%);
         bottom: -12px;
     }
-
     .main__list {
-      margin-top: 43px;
+        margin-top: 43px;
     }
-
     .col-sm-12 {
         margin-bottom: 16px;
     }
@@ -130,20 +123,19 @@
         padding-bottom: 15px;
         padding-right: 10px;
     }
-
     .snack__sale {
-      font-size: 19px;
+        font-size: 15px;
+        line-height: 21px;
     }
-
     .snack__name {
-        font-size: 18px;
-        display: inline;
+        font-size: 14;
     }
     .snack__recipe {
-        font-size: 17px;
+        font-size: 13px;
     }
     .snack__image {
-
+        width: 102px;
+        height: 102px;
     }
 }
 
@@ -151,37 +143,25 @@
 /* Footer */
 
 @media screen and (max-width: 645px) {
-    .store_picture {
-        margin-right: 24px;
-    }
-    .store_picture:last-child {
-        margin-right: 0;
-    }
-
     .footer__uberEats-p {
         font-size: 20px;
         margin-top: 80px;
     }
-
     .select_country {
-      position: absolute;
-      top: 19%;
+        position: absolute;
+        top: 19%;
     }
-
     .socialNetwork {
-      margin-top: 20px;
+        margin-top: 20px;
     }
-
     .socialNetwork-item {
-      font-size: 25px;
-      transform: scale(1.2);
+        font-size: 25px;
+        transform: scale(1.2);
     }
-
     .language {
-      position: absolute;
-      top: 18%;
+        position: absolute;
+        top: 18%;
     }
-
     .footer {
         padding-top: 56px;
         padding-bottom: 40px;
@@ -195,13 +175,6 @@
     .footer__wrapper {
         flex-flow: column;
     }
-
-    .store_picture {
-      margin-right: 70px;
-      transform: scale(1.3);
-    }
-
-    .linkList__center,
     .linkList__right {
         margin-bottom: 23px;
     }
@@ -209,7 +182,7 @@
         margin-bottom: 0;
     }
     .footer-copyright__item {
-        font-size: 16px;
+        font-size: 11px;
         margin-bottom: 24px;
     }
     .footer-copyright__item:last-of-type {
@@ -218,14 +191,19 @@
     .footer-copyright {
         flex-flow: column;
     }
-
-
-
     .square {
         top: 90%;
         right: 0%;
     }
     .primaryTextLink {
-        font-size: 18px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .store_picture {
+        margin-right: 24px;
+        transform: scale(1.1);
+    }
+    .store_picture:first-child {
+        margin-left: 27px;
     }
 }
