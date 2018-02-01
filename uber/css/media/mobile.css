@@ -27,6 +27,7 @@
     }
     .section__search .asap__location {
         flex-grow: 1;
+        box-sizing: content-box;
     }
     .section__search .asap__search {
         width: 100%;
@@ -47,13 +48,15 @@
         background: url("../../img/assortment/photo full.svg") no-repeat 50% 0;
         background-size: cover;
         vertical-align: bottom;
-        margin-bottom: 56px;
+        margin-bottom: 130px;
         padding-bottom: 0px;
     }
     .restaurant__card {
         padding: 24px 49px;
         margin: 0 8px;
         width: 100%;
+        position: relative;
+        margin-bottom: -20%;
     }
     .restaurant__name {
         font-size: 24px;
@@ -88,6 +91,10 @@
     }
     .col-sm-12 {
         flex-basis: 100%;
+    }
+    .main__title {
+        margin-top: 40px;
+        margin-bottom: 14px;
     }
 }
 
@@ -175,10 +182,10 @@
     .footer__wrapper {
         flex-flow: column;
     }
-    .linkList__right {
+    .linkList__center {
         margin-bottom: 23px;
     }
-    .linkList__right:last-of-type {
+    .linkList__right {
         margin-bottom: 0;
     }
     .footer-copyright__item {
