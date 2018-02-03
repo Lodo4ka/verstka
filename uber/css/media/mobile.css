@@ -1,0 +1,216 @@
+/* Header */
+
+@media screen and (max-width: 767px) {
+    .asap {
+        display: none;
+    }
+    .buttons__sign-in {
+        width: 80px;
+    }
+    .buttons__register {
+        margin-right: 0;
+    }
+    .basket {
+        display: none;
+    }
+}
+
+
+/* Search */
+
+@media screen and (max-width: 767px) {
+    .search__input {
+        margin-bottom: 24px;
+    }
+    .search_asap {
+        display: flex;
+    }
+    .section__search .asap__location {
+        flex-grow: 1;
+        box-sizing: content-box;
+    }
+    .section__search .asap__search {
+        width: 100%;
+    }
+    .search_desc {
+        display: block;
+    }
+    .section__search .asap__button {
+        margin-right: 16px;
+    }
+}
+
+
+/* Restaurant */
+
+@media screen and (max-width: 471px) {
+    .restaurant_mobile {
+        background: url("../../img/assortment/photo full.svg") no-repeat 50% 0;
+        background-size: cover;
+        vertical-align: bottom;
+        margin-bottom: 130px;
+        padding-bottom: 0px;
+    }
+    .restaurant__card {
+        padding: 24px 49px;
+        margin: 0 8px;
+        width: 100%;
+        position: relative;
+        margin-bottom: -20%;
+    }
+    .restaurant__name {
+        font-size: 24px;
+        text-align: center;
+    }
+    .restaurant__info {
+        flex-direction: column;
+    }
+    .restaurant__sale {
+        margin-bottom: 14px;
+    }
+    .restaurant__time {
+        font-size: 20px;
+    }
+}
+
+
+/* Categories */
+
+@media screen and (max-width: 683px) {
+    .categories {
+        display: none;
+    }
+}
+
+
+/* Main */
+
+@media screen and (max-width: 520px) {
+    .main_mobile {
+        margin-bottom: 40px;
+    }
+    .col-sm-12 {
+        flex-basis: 100%;
+    }
+    .main__title {
+        margin-top: 40px;
+        margin-bottom: 14px;
+    }
+}
+
+@media screen and (max-width: 471px) {
+    .main__snacks_title {
+        justify-content: center;
+        margin-bottom: 56px;
+    }
+    .main__snack-text::after {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 1px;
+        width: 80px;
+        background: #757575;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -12px;
+    }
+    .main__list {
+        margin-top: 43px;
+    }
+    .col-sm-12 {
+        margin-bottom: 16px;
+    }
+    /* SNACK */
+    .snack__card {
+        border: none;
+        border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+    }
+    .snack__info {
+        padding: 0;
+        padding-bottom: 15px;
+        padding-right: 10px;
+    }
+    .snack__sale {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .snack__name {
+        font-size: 14;
+    }
+    .snack__recipe {
+        font-size: 13px;
+    }
+    .snack__image {
+        width: 102px;
+        height: 102px;
+    }
+}
+
+
+/* Footer */
+
+@media screen and (max-width: 645px) {
+    .footer__uberEats-p {
+        font-size: 20px;
+        margin-top: 80px;
+    }
+    .select_country {
+        position: absolute;
+        top: 19%;
+    }
+    .socialNetwork {
+        margin-top: 20px;
+    }
+    .socialNetwork-item {
+        font-size: 25px;
+        transform: scale(1.2);
+    }
+    .language {
+        position: absolute;
+        top: 18%;
+    }
+    .footer {
+        padding-top: 56px;
+        padding-bottom: 40px;
+    }
+    .footer__layout--left {
+        margin-bottom: 40px;
+    }
+    .footer_logo_img {
+        width: 250px;
+    }
+    .footer__wrapper {
+        flex-flow: column;
+    }
+    .linkList__center {
+        margin-bottom: 23px;
+    }
+    .linkList__right {
+        margin-bottom: 0;
+    }
+    .footer-copyright__item {
+        font-size: 11px;
+        margin-bottom: 24px;
+    }
+    .footer-copyright__item:last-of-type {
+        margin-bottom: 0;
+    }
+    .footer-copyright {
+        flex-flow: column;
+    }
+    .square {
+        top: 90%;
+        right: 0%;
+    }
+    .primaryTextLink {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .store_picture {
+        margin-right: 24px;
+        transform: scale(1.1);
+    }
+    .store_picture:first-child {
+        margin-left: 27px;
+    }
+}

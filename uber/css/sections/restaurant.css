@@ -1,0 +1,41 @@
+.restaurant {
+    padding: 80px 0;
+    background: url("../../img/assortment/photo.svg") no-repeat 50% 0;
+    background-size: cover;
+}
+
+.restaurant__container {
+    display: flex;
+}
+
+.restaurant__card {
+    padding: 38px;
+    background: white;
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+    border-radius: 3px;
+}
+
+.restaurant__name {
+    font-size: 36px;
+    color: #1d1d1d;
+    margin-bottom: 54px;
+}
+
+.restaurant__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurant__sale {
+    font-size: 14px;
+    color: #626262;
+}
+
+.restaurant__time {
+    padding: 8px 16px;
+    font-size: 13px;
+    color: white;
+    background: #262626;
+    border-radius: 16px;
+}

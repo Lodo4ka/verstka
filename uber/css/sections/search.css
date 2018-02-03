@@ -1,0 +1,30 @@
+.section__search {
+    margin-bottom: 56px;
+}
+
+.search_asap {
+    display: none;
+}
+
+.search__input {
+    border: none;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+    width: 100%;
+    padding: 8px 40px 16px;
+    line-height: 24px;
+    background: url("../../img/search.svg") no-repeat 0 30%;
+}
+
+.search__input::placeholder {
+    color: rgba(98, 98, 98, 0.5);
+}
+
+.search_desc {
+    display: none;
+    font-size: 11px;
+    color: #626262;
+}
+
+.search__when {
+    margin-right: 53px;
+}
